@@ -6,12 +6,30 @@
 body {
   width: 100vw;
   height: 100vh;
+  background-color: rgb(14, 18, 34);
 }
 
 .App {
   width: 100vw;
   height: 100vh;
-  background-color: darkslateblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.camera {
   display: flex;
   flex-direction: column;
+  color: white;
+  gap: 5px;
+}
+
+.cameraFeed {
+  width: 640px;
+  height: 360px;
+  border: 10px solid rgb(32, 52, 86);
+  color: white;
+  margin-bottom: 10px;
 }
